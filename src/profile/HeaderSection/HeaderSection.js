@@ -19,6 +19,7 @@ const HeaderContainer = styled.div`
   margin-top: 0px;
   position: fixed;
   width: 100%;
+  z-index: 1;
 `;
 const DataContainer = styled.div`
   color: white;
