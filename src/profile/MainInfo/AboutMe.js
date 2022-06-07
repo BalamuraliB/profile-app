@@ -4,13 +4,15 @@ const AboutMe = (props) => {
     <div>
       <H1>ABOUT ME</H1>
       <p>
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum."
+        Efficient, resourceful, and organized individual with 8+ years of
+        experience in providing meaningful solutions to business. An experienced
+        full stack developer with excellent command of languages like Java,
+        Javascript, TypeScript, and python and different related technologies
+        including React, Spring, AngularJs as well as database design and system
+        design. Excellent problem solver and possess the ability to establish
+        core organizational and personnel goals and procedures pertaining to the
+        needs of the organization. A Scrum Lead and a certified AWS solutions
+        architect with experience in cloud base technologies and infrastructure.
       </p>
     </div>
   );

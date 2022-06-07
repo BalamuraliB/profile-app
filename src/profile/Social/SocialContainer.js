@@ -14,10 +14,12 @@ const SocialContainer = (props) => {
 export default SocialContainer;
 
 const Container = styled.div`
+  flex-direction: column;
+  flex-shrink: 0;
   background-color: #2339ab;
   height: 100%;
   margin-left: 20px;
   position: fixed;
-  width: 200px;
-  z-index: 1;
+  width: 13%;
+  z-index: 1; 
 `;

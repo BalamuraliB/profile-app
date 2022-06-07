@@ -20,4 +20,5 @@ export default CardCarousal;
 const CarousalContainer = styled.div`
   display: flex;
   flex-direction: row;
+  overflow: none ;
 `;
