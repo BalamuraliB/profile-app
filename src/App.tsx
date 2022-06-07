@@ -1,17 +1,22 @@
 import React from "react";
-import "./App.css";
+import styled from "styled-components";
 import HeaderSection from "./profile/HeaderSection/HeaderSection";
 import MainInfo from "./profile/MainInfo/MainInfo";
 import SocialContainer from "./profile/Social/SocialContainer";
 
 function App() {
   return (
-    <div className="App">
+    <Container>
       <HeaderSection />
       <MainInfo />
-      <SocialContainer />
-    </div>
+      <SocialContainer /> 
+    </Container>
   );
 }
+
+const Container = styled.div`
+  display: flex;
+  margin: 0;
+`;
 
 export default App;

@@ -16,7 +16,7 @@ export default Card;
 
 const CardDiv = styled.div`
   background-color: #8b8e94;
-  box-shadow: 5px 10px #9A9CC8;
+  border-radius: 5%;
   height: 320px;
   margin-left: 20px;
   margin-right: 20px;

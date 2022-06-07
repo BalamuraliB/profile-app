@@ -23,4 +23,5 @@ const MainContainer = styled.div`
   padding: 20px;
   position: absolute;
   text-align: left;
+  width: 80%;
 `;
