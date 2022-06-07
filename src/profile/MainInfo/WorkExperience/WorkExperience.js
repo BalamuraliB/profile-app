@@ -1,5 +1,5 @@
 import Experience from "./Experience";
-import { H1 } from "../../Common/CommonComp";
+import { CENTERED_H1 } from "../../Common/CommonComp";
 
 const WorkExperience = (props) => {
   const workList = [
@@ -39,7 +39,7 @@ const WorkExperience = (props) => {
 
   return (
     <div>
-      <H1>WORK EXPERIENCE</H1>
+      <CENTERED_H1>WORK EXPERIENCE</CENTERED_H1>
       {workList.map((work) => {
         return <Experience key={work.time} experience={work} />;
       })}

@@ -1,4 +1,4 @@
-import { H1 } from "../../Common/CommonComp";
+import { CENTERED_H1 } from "../../Common/CommonComp";
 import Experience from "../WorkExperience/Experience";
 
 const Education = (props) => {
@@ -12,7 +12,7 @@ const Education = (props) => {
   };
   return (
     <div>
-      <H1>EDUCATION</H1>
+      <CENTERED_H1>EDUCATION</CENTERED_H1>
       <Experience experience={education} />
     </div>
   );

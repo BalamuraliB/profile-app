@@ -1,10 +1,10 @@
-import { H1 } from "../../Common/CommonComp";
+import { CENTERED_H1 } from "../../Common/CommonComp";
 import CardCarousal from "./CardCarousal";
 
 const TechnicalSkills = (props) => {
   return (
     <>
-      <H1>TECHNICAL SKILLS</H1>
+      <CENTERED_H1>TECHNICAL SKILLS</CENTERED_H1>
       <CardCarousal />
     </>
   );
